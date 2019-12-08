@@ -1,10 +1,10 @@
 ## JavaScript To Do List
 
-1. JavaScript Objects, Comments, Statements
-2. JavaScript Function
-3. . notation, [] bracket notation, Object initializer syntax
-4. Casting Rules in JavaScript
-5. Javascript types (Primitive types and complex types)
+1. JavaScript Objects, Comments, Statements##
+2. JavaScript Function##
+3. . notation, [] bracket notation, Object initializer syntax##
+4. Casting Rules in JavaScript##
+5. Javascript types (Primitive types and complex types)##
 6. Javascript Prototypes
 7. JavaScript Prototypal Inheritance, (Classical vs Prototypal inheritance)
 8. Object methods (`Object.keys()`, `Object.values()`, `Object.entries()`), delete operator in object
