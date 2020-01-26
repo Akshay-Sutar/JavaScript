@@ -1,47 +1,36 @@
-// prototype fns are like static functions ie they exists only once and are not created new for evert object.
-
-var Person = function (name){
-	this.name = name;
-	this.canTalk = true;
-};
-
-Person.prototype.greet = function(){
-	if(this.canTalk){
-		console.log('Hi, I am '+this.name);
-	}
-};
-
-var Employee = function(name,title){
-	Person.call(this, name);
-	this.title = title;
+function func(){
+  let counter = 0;
+  this.counter1 = 0;
+  this.instanceMethod = function(){
+    console.log('Instance method called ' + (++counter) + ' times');
+  }
 }
 
-Employee.prototype = Object.create(Person.prototype);
-Employee.prototype.constructor = Employee;//WTF COMMENT!!!
-										  // If you don't set Object.prototype.constructor to Employee, 
-                                          //it will take prototype.constructor of Person (parent). 
-                                          //To avoid that, we set the prototype.constructor to Employee (child).
-
-Employee.prototype.greet = function (){
-	if (this.canTalk){
-		console.log('Hi, I am '+this.name+' and title is '+this.title);		
-	}
+func.prototype.prototypeMethod = function(){
+  console.log('Instance method called ' + (++this.counter1) + ' times');  
 }
 
-var Mime = function(name){
-	Person.call(this,name);
-	this.canTalk = false;
+var a = new func();
+var b = new func();
+
+a.prototypeMethod();
+a.prototypeMethod();
+b.prototypeMethod();
+
+Number.prototype.isPrime = function() {
+  if (this < 2 && this >= 0){
+    return false;
+  }
+
+  for (let i = 2; i < Math.sqrt(this); i++) {
+      if (this % i == 0) {
+        return false;
+      }
+  }
+
+  return true;
 }
 
-Mime.prototype = Object.create(Person.prototype);
-Mime.prototype.constructor = Mime; // WTF COMMENT. If you don't set Object.prototype.constructor to Mime,
-                                   //it will take prototype.constructor of Person (parent).
-                                   //To avoid that, we set the prototype.constructor to Mime (child).
-
-var aPerson = Person('Akshay');
-var aEmp = Employee('AAS','SWD');
-var aMime = Mime('RW');
-
-aPerson.greet();
-aEmp.greet();
-aMime.greet();
+String.prototype.toTitleCase = function(){
+  return this.charAt(0).toUpperCase() + this.substring(1);
+}

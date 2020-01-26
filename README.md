@@ -5,8 +5,8 @@
 3. . notation, [] bracket notation, Object initializer syntax##
 4. Casting Rules in JavaScript##
 5. Javascript types (Primitive types and complex types)##
-6. Javascript Prototypes
-7. JavaScript Prototypal Inheritance, (Classical vs Prototypal inheritance)
+6. Javascript Prototypes##
+7. JavaScript Prototypal Inheritance, (Classical vs Prototypal inheritance)##
 8. Object methods (`Object.keys()`, `Object.values()`, `Object.entries()`), delete operator in object
 9. this keyword
 10. `.toString()`, `.valueOf()`
