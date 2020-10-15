@@ -7,16 +7,16 @@
 5. Javascript types (Primitive types and complex types)##
 6. Javascript Prototypes##
 7. JavaScript Prototypal Inheritance, (Classical vs Prototypal inheritance)##
-8. Object methods (`Object.keys()`, `Object.values()`, `Object.entries()`), delete operator in object
+8. Object methods (`Object.keys()`, `Object.values()`, `Object.entries()`), delete operator in object##
 9. this keyword
-10. `.toString()`, `.valueOf()`
-11. `.hasOwnProperty()`, enumerable properties
+10. `.toString()`, `.valueOf()`##
+11. `.hasOwnProperty()`, enumerable properties##
 12. `Object.create()`, `Object.assign()`, Shallow copy and Deep copy of objects
-13. `.call()`, `.apply()`, `.bind()` functions in Javascript
-14. Short circuiting operators, instanceof operator, typeof operator, void operator, ternary operator, eval function, truthy and falsy values, control statements and loops, `parseInt()` and its overloads, `parseFloat()`, Rounding errors of floating point numbers in Javascript, `.toFixed()`, `.toPrecision()`
-15. Hoisting and strict mode
-16. `var`, `let`, `const` (Block scope and Global scope)
-17. Anonymous and named function, Chaining functions by passing this reference
+13. `.call()`, `.apply()`, `.bind()` functions in Javascript##
+14. Short circuiting operators, instanceof operator, typeof operator, void operator, ternary operator, eval function, truthy and falsy values, control statements and loops, `parseInt()` and its overloads, `parseFloat()`, Rounding errors of floating point numbers in Javascript, `.toFixed()`, `.toPrecision()`##
+15. Hoisting and strict mode##
+16. `var`, `let`, `const` (Block scope and Global scope)##
+17. Anonymous and named function, Chaining functions by passing this reference##
 18. Pure functions, Immutability, Idempotency in functions, Composition and Delegation (has-a and is-a relationship) in OOP, Higher order functions, Lambda expressions, Passing functions as arguments
 19. Closures, Function currying
 20. Callback, Arrow functions, Callback vs Arrow functions, When to use arrow functions
@@ -28,7 +28,7 @@
 26. Date, date constructor, `Date.parse()`, `Date.getDate()`, `Date.getMonth()`, `Date.getYear()`, `ISO-8601 format`, ISO Date Strings
 27. Javascript Arrays, `[]` vs `new Array(10)`, `O(1)` access by index
 28. Push into array (`.push()`), Pop from array (`.pop()`), shift from array (`.shift()`), `.splice()`, `.slice()`, `.reverse()` In place sort, Sort primitive arrays, Sort complex array objects by overloading `.compareTo()`
-29. Array methods (`.map()`, `.filter()`, `.reduce()`, `.forEach()`, `.flatMap()`, `.include()`, `.some()`, `.every()`, `.find()`, `.indexOf()`, `.findIndex()`)
+29. Array methods (`.map()`, `.filter()`, `.reduce()`, `.forEach()`, `.flatMap()`, `.include()`, `.some()`, `.every()`, `.find()`, `.indexOf()`, `.findIndex()`)##
 30. Maps (`Map.get()`, `Map.set()`), ES6 sets
 31. Spread operator, Rest operator, ES6 destructuring objects and arrays
 32. Character Encodings [ASCII strings, UTF (`UTF-8`, `UTF-16`, `UTF-32`), Code points, Byte Order Mark (BOM), Unicode String], ASCII v/s Unicode
